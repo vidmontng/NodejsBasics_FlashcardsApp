@@ -23,7 +23,7 @@ router.post('/hello', (req, res) => {
     res.cookie('username', req.body.username);
     res.redirect('/');
 });
-
+//comment 2
 
 router.post('/goodbye', (req, res) => {
     res.clearCookie('username');
